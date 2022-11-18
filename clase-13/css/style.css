@@ -1,0 +1,25 @@
+
+body{
+    background-image: url('https://complejokalem.com.ar/wp-content/uploads/2014/07/MG_8198-copy-1-1030x613.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    margin: 40px 0 60px 0;
+}
+
+h2{
+    margin: 0 50px 20px 50px;
+}
+
+.recuadro{
+    background-color: antiquewhite;
+    margin: 100px 350px;
+    padding: 19px;
+    border-radius: 20px;
+}

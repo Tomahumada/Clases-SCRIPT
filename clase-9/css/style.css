@@ -1,0 +1,108 @@
+* {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+}
+
+body{
+    background-image: radial-gradient(circle at 31.7% 118.3%, #ffffff 0, #ffffff 7.14%, #ffffff 14.29%, #ffffff 21.43%, #f5ffff 28.57%, #e2ffff 35.71%, #cdfcf8 42.86%, #b5f2f2 50%, #9ce8ee 57.14%, #84deeb 64.29%, #6dd5eb 71.43%, #58cdeb 78.57%, #44c5ec 85.71%, #34bdee 92.86%, #2cb6ef 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.fondo{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 40%;
+    right: 0;
+    left: 0;
+    margin: 10px auto;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px grey;
+}
+
+.zonadebotones{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 20px 0 0 0;
+}
+
+.zonadeinput{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+input[type=text]{
+    border-bottom: 4px solid black;
+    box-shadow: 4px 4px 10px black;
+    width: 50%;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px 0;
+    transition: ease .3s;
+}
+
+input[type=text]:hover{
+    border-bottom: 4px solid  blue;
+    box-shadow: 5px 5px 15px black;
+    background-color: lightcyan;
+}
+
+input[type=button]{
+    border-radius: 20px;
+    margin: 5px 10px;
+    padding: 5px 20px;
+    background-color: lightblue;
+    transition: ease .2s;
+}
+
+input[type=button]:hover{
+    box-shadow: 4px 4px 10px black;
+}
+
+@media(max-width: 768px){
+    h1{
+        margin: 10px;
+    }
+    .fondo{
+        background-color: whitesmoke;
+        width: 75%;
+        height: auto;
+        padding: 15px 0px;
+        border-radius: 20px;
+        box-shadow: 8px 8px 20px grey;
+    }
+    input[type=text]{
+        width: 85%;
+    }
+    .zonadeinput{
+        width: 90%;
+    }
+    .zonadebotones{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 0px 0;
+    }
+    
+    input[type=button]{
+        width: 50%;
+    }
+    
+}

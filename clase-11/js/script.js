@@ -1,0 +1,1 @@
+localStorage.getItem('nombre','tomas')
